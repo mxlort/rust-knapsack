@@ -1,0 +1,8 @@
+- !Config
+  population_size: 100
+  generations_count: 5000
+  stability_threshold: 100
+  frequency: 500
+  path: ./problem4.dat
+  known_best: 20750
+  mutations_per_1k: 100

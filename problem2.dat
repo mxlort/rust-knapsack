@@ -1,0 +1,16 @@
+resource: r0: rose: 20
+resource: r1: tulipe: 30
+resource: r2: marguerite: 40
+resource: r3: lys: 20
+resource: r4: lilas: 50
+
+product: p0: 30: r0=1: r1=3
+product: p1: 30: r1=1: r2=3
+product: p2: 30: r2=1: r3=3
+product: p3: 30: r3=1: r4=3
+product: p4: 30: r4=1: r0=3
+product: p5: 30: r0=1: r1=1: r2=1: r3=1
+product: p6: 30: r1=1: r2=1: r3=1: r4=1
+product: p7: 30: r2=1: r3=1: r4=1: r0=1
+product: p8: 30: r3=1: r4=1: r0=1: r1=1
+product: p9: 30: r4=1: r0=1: r1=1: r2=1
